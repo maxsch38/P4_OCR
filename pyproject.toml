@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "projet 4 ocr"
+version = "0.1.0"
+description = "Environnement virtuel projet 4 - OpenClassrooms"
+authors = ["maxsch38"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.28.0"
+numpy = "^1.26.2"
+pandas = "^2.1.4"
+matplotlib = "^3.8.2"
+seaborn = "^0.13.0"
+scikit-learn = "^1.3.2"
+category-encoders = "^2.6.3"
+xgboost = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
